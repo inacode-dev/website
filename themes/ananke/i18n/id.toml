@@ -1,0 +1,32 @@
+[more]
+other = "Selebihnya"
+
+[allTitle]
+other = "Semua {{.Title }}"
+
+[recentTitle]
+other = "{{.Title }} Terbaru"
+
+[readMore]
+other = "baca lebih lanjut"
+
+[whatsInThis]
+other = "What's in this {{ .Type }}"
+
+[related]
+other = "Berhubungan"
+
+[yourName]
+other = "Nama Lengkap"
+
+[emailAddress]
+other = "Email"
+
+[message]
+other = "Pesan"
+
+[emailRequiredNote]
+other = "Email diperlukan"
+
+[send]
+other = "Kirim"

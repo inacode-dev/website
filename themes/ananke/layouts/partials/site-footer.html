@@ -1,0 +1,13 @@
+<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo"> 
+  </div>
+  <div class="justify-between">
+ 	<p class="f6 white-90">Our mission is to help Indonesian to learn computer science, start coding and programming in easy and fun way through free tutorial videos, interactive learn, and articles. All resources in Bahasa Indonesia. We accept any donation <a target="_blank" class="hover-white no-underline white-70" href="https://trakteer.id/inacode">https://trakteer.id/inacode</a></p>
+  </div>
+  <hr />
+  <div class="flex justify-between">
+  <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+    &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+  </a>
+    <div>{{ partial "social-follow.html" . }}</div>
+  </div>
+</footer>
