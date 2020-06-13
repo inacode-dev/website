@@ -8,6 +8,7 @@ tags:
 draft: false
 authors:
 - Adi Setiawan
+featured_image: https://trakteer.id/images/mix/bg-3.png
 ---
 
 
