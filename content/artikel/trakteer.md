@@ -6,6 +6,8 @@ tags:
 - Berita
 - Pemula
 draft: false
+authors:
+- Adi Setiawan
 ---
 
 

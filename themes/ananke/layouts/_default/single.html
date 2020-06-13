@@ -48,6 +48,15 @@
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
+      {{- range .Params.authors }}
+        {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+
+            <figcaption>
+              Penulis: <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+            </figcaption>
+          </figure>
+        {{ end }}
+      {{ end }}
       <div class="mt6 instapaper_ignoref">
       {{ if .Site.DisqusShortname }}
         {{ template "_internal/disqus.html" . }}
