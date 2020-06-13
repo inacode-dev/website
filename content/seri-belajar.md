@@ -2,6 +2,7 @@
 title: Seri Belajar
 type: page
 menu: main
+weight: 3
 
 ---
 

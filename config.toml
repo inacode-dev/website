@@ -34,3 +34,18 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/img/bg.jpg"
   recent_posts_number = 2
+
+[menu]
+
+  [[menu.main]]
+    identifier = "artikel"
+    name = "Artikel"
+    title = "artikel"
+    url = "/artikel/"
+    weight = 1
+  [[menu.main]]
+    identifier = "video"
+    name = "Video"
+    title = "video"
+    url = "/video/"
+    weight = 2
