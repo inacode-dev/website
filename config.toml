@@ -9,7 +9,6 @@ SectionPagesMenu = "main"
 Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = "UA-168716345-1"
 enableRobotsTXT = true
-
 disableKinds = ["taxonomyTerm"]
 
 [sitemap]
@@ -36,6 +35,7 @@ disableKinds = ["taxonomyTerm"]
   background_color_class = "bg-black"
   featured_image = "/img/bg.jpg"
   recent_posts_number = 2
+  toc = true
 
 [menu]
 

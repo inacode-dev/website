@@ -64,6 +64,14 @@
       {{ if .Site.Params.commentoEnable }}
         {{- partial "commento.html" . -}}
       {{ end }}
+      <script src="https://utteranc.es/client.js"
+        repo="inacode-id/inacode-id.github.io"
+        issue-term="pathname"
+        label="Komentar"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </script>
       </div>
     </div>
 
