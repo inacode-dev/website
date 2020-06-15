@@ -5,7 +5,7 @@ menu: main
 weight: 100
 ---
 
-> di Inacode kamu bisa belajar mulai dari ilmu komputer, belajar koding, pemrograman, sampai artikel terbaru seputar teknologi komputer,  dan semua bisa kamu dapatkan secara GRATIS.
+> di Inacode kamu bisa belajar mulai dari ilmu komputer, belajar koding, pemrograman, dan artikel terbaru seputar teknologi komputer, dan semua bisa kamu dapatkan secara GRATIS.
 
 ## Menjadi Kontributor
 

@@ -22,7 +22,7 @@ disableKinds = ["taxonomyTerm"]
   description = "InaCode Indonesia"
   facebook = "https://www.facebook.com/inacode.id"
   twitter = ""
-  instagram = ""
+  instagram = "https://www.instagram.com/inacode.id"
   youtube = "https://www.youtube.com/channel/UCP6zyzmTLbzKI5OgXhT2brQ"
   github = "https://github.com/inacode-id"
   gitlab = ""
@@ -50,6 +50,13 @@ disableKinds = ["taxonomyTerm"]
     title = "video"
     url = "/video/"
     weight = 2
+  [[menu.main]]
+    identifier = "podcast"
+    name = "Podcast"
+    title = "podcast"
+    url = "/podcast/"
+    weight = 3
+
 
 [taxonomies]
   tag = "tags"

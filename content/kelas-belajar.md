@@ -2,7 +2,7 @@
 title: Kelas Belajar
 type: page
 menu: main
-weight: 3
+weight: 4
 
 ---
 
