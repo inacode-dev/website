@@ -12,4 +12,4 @@ authors:
 
 Di Podcast seri perdana ini kita berkesampatan ngobrol bareng I Wayan Vendy Wiranatha, pemuda asli Bali yang saat ini bekerja di sebuah perusahaan multi nasional di Bali sebagai R&D. Selamat mendengarkan!
 
-{{< soundcloud 838990903 >}}
+{{< anchor Podcast-Seri-1---Ngobrol-santai-bareng-I-Wayan-Vendy-Wiranatha-effprg >}}
