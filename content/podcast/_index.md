@@ -1,7 +1,6 @@
 ---
-title: "Seri Podcast"
+title: "Seri Podcast InaCode"
 ---
 
-## Segera Hadir
-
-> Kami masih menyiapkan beberapa konten podcast. Untuk mengetahui informasi terbaru, yuk gabung di milis kami dengan [mengisi form berlangganan milis](https://mailchi.mp/57aa88af0d0f/inacode-indonesia)
+> Punya ide topik podcast ? hubungi kami menggunakan [form disini]({{< ref "tentang-kami.md" >}}
+)
