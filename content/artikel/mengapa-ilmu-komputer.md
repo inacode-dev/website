@@ -2,15 +2,13 @@
 title: "Mengapa Ilmu Komputer ?"
 date: 2020-06-15T13:26:13+08:00
 tags:
-- Umum
-- Berita
 - Pemula
 draft: false
 authors:
-- Adi Setiawan
+- Admin Inacode
 ---
 
-> Kamu ingin berkarir sebagai software engineer ? system administrator ? atau cyber security expert ? apapun itu, kamu harus punya dasar atau fundamental yang kuat di salah satu displin ilmu yang namanya ilmu komputer, atau istilah kerennya *computer science*. Sayangnya tidak semua dari kita bisa kuliah di jurusan IT, tapi gak usah mundur dulu. Kamu juga bisa belajar secara mandiri *self taught learner*! 
+> Kamu ingin berkarir sebagai software engineer ? system administrator ? atau cyber security expert ? apapun itu, kamu harus punya dasar atau fundamental yang kuat di salah satu displin ilmu yang namanya ilmu komputer, atau istilah kerennya *computer science*. Sayangnya tidak semua dari kita bisa kuliah di jurusan IT, tapi nggak usah mundur dulu. Kamu juga bisa belajar secara mandiri *self taught learner*! 
 
 <!--more--> 
 
@@ -49,6 +47,10 @@ Hampir semua kurikulum diawali dengan pemrograman komputer *computer programming
 
 Hal mendasar lain setelah bahasa pemrograman adalah *computer architecture* istilah lain biasa disebut *computer system* atau *computer organization* dimana kita memahami bagaimana sebuah komputer bekerja, bagaimana input dan output di olah, bagaimana otak komputer *computer processor* bekerja, bagaimana komputer mengelola data yang disimpan dan melakukan kalkulasi.
 
+### Sistem Operasi
+
+*Operating System* disingkat *OS* adalah jembatan antara perangkat keras *hardware* dan perangkat lunak *software*. Jika kamu pernah mendengar *Windows* atau *Linux* atau *Android* itu semua adalah OS yang mengatur komunikasi dan sistem komputer agar bisa bekerja mulai dari menerima input sampai dengan output. Pemahaman dasar *OS* sangat penting sebagai bagian dari ilmu komputer.
+
 ### Algoritma dan Struktur Data
 
 > ada seribu jalan ke roma
@@ -72,10 +74,3 @@ kalkulasi angka serta perbandingan dan rumus sederhana.
 ## Penutup
 
 di InaCode kami mencoba untuk terus membuat konten baik berupa artikel, podcast, video atau format lainnya agar kita semua bisa mulai belajar ilmu komputer dengan mudah, terutama untuk kamu yang belum memiliki kesempatan di sekolah atau kuliah di bidang ini. Jangan putus asa, tetap semangat belajar!
-
-
-
-
-
-
-

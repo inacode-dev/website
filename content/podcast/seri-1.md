@@ -7,7 +7,7 @@ tags:
 - Pemula
 draft: false
 authors:
-- Adi Setiawan
+- Admin Inacode
 ---
 
 Di Podcast seri perdana ini kita berkesampatan ngobrol bareng I Wayan Vendy Wiranatha, pemuda asli Bali yang saat ini bekerja di sebuah perusahaan multi nasional di Bali sebagai R&D. Selamat mendengarkan!

@@ -4,10 +4,9 @@ date: 2020-06-13T13:26:13+08:00
 tags:
 - Umum
 - Berita
-- Pemula
 draft: false
 authors:
-- Adi Setiawan
+- Admin Inacode
 featured_image: https://trakteer.id/images/mix/bg-3.png
 ---
 
