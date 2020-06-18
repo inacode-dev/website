@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artikel on Inacode Indonesia</title>
+    <link>https://inacode.id/artikel/</link>
+    <description>Recent content in Artikel on Inacode Indonesia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id-id</language>
+    <lastBuildDate>Mon, 15 Jun 2020 13:26:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://inacode.id/artikel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mengapa Ilmu Komputer ?</title>
+      <link>https://inacode.id/artikel/mengapa-ilmu-komputer/</link>
+      <pubDate>Mon, 15 Jun 2020 13:26:13 +0800</pubDate>
+      
+      <guid>https://inacode.id/artikel/mengapa-ilmu-komputer/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Kamu ingin berkarir sebagai software engineer ? system administrator ? atau cyber security expert ? apapun itu, kamu harus punya dasar atau fundamental yang kuat di salah satu displin ilmu yang namanya ilmu komputer, atau istilah kerennya &lt;em&gt;computer science&lt;/em&gt;. Sayangnya tidak semua dari kita bisa kuliah di jurusan IT, tapi nggak usah mundur dulu. Kamu juga bisa belajar secara mandiri &lt;em&gt;self taught learner&lt;/em&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Support Kami di Trakteer</title>
+      <link>https://inacode.id/artikel/trakteer/</link>
+      <pubDate>Sat, 13 Jun 2020 13:26:13 +0800</pubDate>
+      
+      <guid>https://inacode.id/artikel/trakteer/</guid>
+      <description>&lt;p&gt;Selain sebagai kontributor, kamu juga bisa mensupport kami dengan menjadi donatur. Cukup dengan lima ribu rupiah, kamu sudah membantu kami mengelola InaCode menjadi platform belajar komputer di Indonesia.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
