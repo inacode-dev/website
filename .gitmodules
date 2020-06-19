@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:inacode-id/inacode-id.github.io.git
-	branch = master
