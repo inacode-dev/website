@@ -1,0 +1,18 @@
+<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo"> 
+  </div>
+  <div class="justify-between" style="text-align:center;">
+  <p class="f4 white-90"><a href="https://trakteer.id/inacode" class="hover-white white-90" target="_blank">Support kami mulai dari lima ribu rupiah untuk terus berkarya membuat konten yang bermanfaat</a></p>
+
+ 	<p class="f6 white-90" style="text-align:center;">Our mission is to help Indonesian to learn computer science, start coding and programming in easy and fun way through free tutorial videos, interactive learn, and articles. All resources in Bahasa Indonesia. We accept any donation</p>
+  <div style="text-align:center;">
+    <a href="https://www.buymeacoffee.com/adisetiawan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+  </div>
+  </div>
+  <hr />
+  <div class="flex justify-between">
+  <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+    &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+  </a>
+    <div>{{ partial "social-follow.html" . }}</div>
+  </div>
+</footer>
