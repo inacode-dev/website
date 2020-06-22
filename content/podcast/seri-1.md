@@ -2,9 +2,7 @@
 title: "Podcast Seri Perdana"
 date: 2020-06-15T13:26:13+08:00
 tags:
-- Umum
-- Berita
-- Pemula
+- Podcast
 draft: false
 authors:
 - Admin Inacode

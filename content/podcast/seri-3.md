@@ -2,7 +2,7 @@
 title: "Podcast Seri 3"
 date: 2020-06-19T22:45:13+08:00
 tags:
-- Umum
+- Podcast
 draft: false
 authors:
 - Admin Inacode
