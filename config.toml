@@ -1,7 +1,7 @@
 baseURL = "https://inacode.id/"
 languageCode = "id-id"
 title = "Inacode Indonesia"
-Copyright = "100% love from Bali"
+Copyright = "100% made with &#10084; from Bali"
 theme = "ananke"
 
 MetaDataFormat = "yaml"

@@ -10,7 +10,7 @@ featured_image: https://trakteer.id/images/mix/bg-3.png
 ---
 
 
-Selain sebagai kontributor, kamu juga bisa mensupport kami dengan menjadi donatur. Cukup dengan lima ribu rupiah, kamu sudah membantu kami mengelola InaCode menjadi platform belajar komputer di Indonesia. 
+Selain sebagai kontributor, kamu juga bisa mensupport kami dengan menjadi donatur. Cukup dengan sepuluh ribu rupiah, kamu sudah membantu kami mengelola InaCode menjadi platform belajar komputer di Indonesia. 
 
 <!--more--> 
 

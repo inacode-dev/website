@@ -13,7 +13,7 @@ Jika kamu tertarik untuk berbagi ilmu komputer, membuat artikel, video dan tutor
 
 ## Menjadi Donatur
 
-Kamu bisa mensupport inacode mulai dari lima ribu rupiah. Support kami agar terus berkarya dengan melakukan donasi melalui [halaman Trakteer kami](https://trakteer.id/inacode). Seluruh dana yang masuk dapat dilihat secara terbuka dan akan kami gunakan untuk biaya operasional.
+Kamu bisa mensupport inacode mulai dari sepuluh ribu rupiah. Support kami agar terus berkarya dengan melakukan donasi melalui [halaman Trakteer kami](https://trakteer.id/inacode). Seluruh dana yang masuk dapat dilihat secara terbuka dan akan kami gunakan untuk biaya operasional.
 
 ## Sponsorship
 

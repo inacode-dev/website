@@ -12,6 +12,6 @@ Di seri keempat kali ini, InaCode berkesempatan ngobrol santai bareng Andre Rama
 
 <!--more--> 
 
-Support InaCode untuk terus membuat konten menarik lainnya dengan melakukan donasi mulai dari lima ribu rupiah! kunjungi https://trakteer.id/inacode
+Support InaCode untuk terus membuat konten menarik lainnya dengan melakukan donasi mulai dari sepuluh ribu rupiah! kunjungi https://trakteer.id/inacode
 
 {{< anchor Podcast-Seri-4---Ngobrol-seru-bareng-Andre-Ramayadi-efqenk >}}
