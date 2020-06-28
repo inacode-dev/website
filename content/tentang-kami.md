@@ -9,7 +9,7 @@ weight: 100
 
 ## Menjadi Kontributor
 
-Jika kamu tertarik untuk berbagi ilmu komputer, membuat artikel, video dan tutorial, atau menemukan kesalahan di website ini berupa typo atau informasi yang salah (misleading), silahkan hubungi kami melalui form dibawah untuk bergabung. Semua source code dari website ini dapat diakses melalui repo [github](https://github.com/inacode-id/website). Silahkan fork repo kami dan lakukan pull request, jangan lupa ikuti aturan `Code of Conduct` kami di https://github.com/inacode-id/website/blob/master/CODE_OF_CONDUCT.md
+Jika kamu tertarik untuk berbagi ilmu komputer, membuat artikel, video dan tutorial, atau menemukan kesalahan di website ini berupa typo atau informasi yang salah (misleading), silahkan hubungi kami melalui form dibawah untuk bergabung. Semua source code dari website ini dapat diakses melalui repo di https://github.com/inacode-id/website). Silahkan fork repo kami dan lakukan pull request, jangan lupa ikuti aturan `Code of Conduct` kami di https://github.com/inacode-id/website/blob/master/CODE_OF_CONDUCT.md
 
 ## Menjadi Donatur
 
