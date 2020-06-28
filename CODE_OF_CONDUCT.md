@@ -62,9 +62,8 @@ perwakilan yang ditunjuk pada kegiatan online maupun offine.
 ## Penegakan
 
 Kejadian perilaku kasar, pelecehan, atau tidak dapat diterima yang terjadi
-dapat dilaporkan kepada pengelola komunitas di [INSERT CONTACT METHOD] untuk
-penegakan.
-Semua keluhan akan ditinjau dan diselidiki secara tepat dan adil.
+dapat dilaporkan kepada pengelola komunitas di https://inacode.id/tentang-kami untuk
+penegakan. Semua keluhan akan ditinjau dan diselidiki secara tepat dan adil.
 
 Semua pengelola komunitas berkewajiban untuk menjaga kerahasiaan dan keamanan
 pelapor suatu insiden.
