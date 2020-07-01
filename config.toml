@@ -35,7 +35,6 @@ disableKinds = ["taxonomyTerm"]
   background_color_class = "bg-black"
   featured_image = "/img/bg.jpg"
   recent_posts_number = 2
-  toc = true
 
 [menu]
 
@@ -62,3 +61,9 @@ disableKinds = ["taxonomyTerm"]
 [taxonomies]
   tag = "tags"
   author = "authors"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
+    startLevel = 1

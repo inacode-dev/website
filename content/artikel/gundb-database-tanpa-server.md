@@ -1,6 +1,7 @@
 ---
 title: "Pengantar GunDB, Database Tanpa Server Terpusat"
 date: 2020-06-21
+toc: true
 tags:
 - Menengah
 - Database

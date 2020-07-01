@@ -11,7 +11,7 @@ other = "{{.Title }} Terbaru"
 other = "baca lebih lanjut"
 
 [whatsInThis]
-other = "What's in this {{ .Type }}"
+other = "Yang ada di {{ .Type }} ini"
 
 [related]
 other = "Berhubungan"

@@ -1,6 +1,6 @@
 ---
 title: "Support Kami di Trakteer"
-date: 2020-06-13T13:26:13+08:00
+date: 2020-06-13
 tags:
 - Berita
 draft: false

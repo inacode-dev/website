@@ -20,6 +20,10 @@ weight: 4
 
 > Segera hadir
 
-## Workshop Online Gratis
+## Workshop Online berbayar
+
+> Segera hadir
+
+## Workshop Online gratis
 
 > Segera hadir

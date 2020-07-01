@@ -1,6 +1,7 @@
 ---
 title: "Mengapa Ilmu Komputer ?"
-date: 2020-06-15T13:26:13+08:00
+date: 2020-06-15
+toc: true
 tags:
 - Pemula
 draft: false
