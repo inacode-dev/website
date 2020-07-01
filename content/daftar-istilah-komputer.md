@@ -1,7 +1,6 @@
 ---
 title: Daftar Istilah
 type: page
-menu: main
 date: 2020-06-14
 
 ---
