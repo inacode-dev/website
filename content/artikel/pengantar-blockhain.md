@@ -70,7 +70,7 @@ Kekurangan ini yang masih menjadi kendala, tidak seperti perbankan tradisional y
 
 ## Penutup
 
-Blockchain saat ini masih merupakan teknologi baru, namun kedepannya, kekurangan yang ada di teknologi blockchain tentu akan bisa diatasi, tinggal menunggu waktu aja, ketika proses komputasi semakin cepat, jaringa yang cepat, maka kendala-kendala blockchain bisa diatasi.
+Blockchain saat ini masih merupakan teknologi baru, namun kedepannya, kekurangan yang ada di teknologi blockchain tentu akan bisa diatasi, tinggal menunggu waktu saja, ketika proses komputasi semakin cepat, jaringa yang cepat, maka kendala-kendala blockchain bisa diatasi.
 
 > Jika kamu seorang developer, programmer atau software engineer yang tertarik untuk mempelajari secara teknis teknologi blockchain menggunakan Ethereum, InaCode membuka [kelas online perdana blockchain & ethereum development]({{< ref "/kelas-online-blockchain-ethereum.md" >}}) di bulan Agustus 2020. Dapatkan harga spesial selama masa early bird, Yuk segera lakukan [pendaftaran disini]({{< ref "/kelas-online-blockchain-ethereum.md" >}}).
 
