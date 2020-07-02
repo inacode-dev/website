@@ -125,4 +125,8 @@ Kelas online akan dibuka di awal agustus 2020
 
 Tidak ada masa berakhir, kelas online ini akan terus diupdate sesuai perkembangan teknologi
 
+**Bisakah saya gunakan materi kelas online ini bersama teman lain tapi hanya membeli satu lisensi ?**
+
+Silahkan :) kamu bisa gunakan materi kelas online ini dan gunakan bersama teman-teman lain, sebarkan ilmu dan saling berbagi ya :D
+
 > Pertanyaan ? silahkan [hubungi kami]({{< ref "tentang-kami.md" >}})

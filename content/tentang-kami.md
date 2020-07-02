@@ -5,11 +5,13 @@ menu: main
 weight: 100
 ---
 
-> di Inacode kamu bisa belajar mulai dari ilmu komputer, belajar koding, pemrograman, dan artikel terbaru seputar teknologi komputer, dan semua bisa kamu dapatkan secara GRATIS.
+> di InaCode kami membuat berbagai konten seputar ilmu komputer, pemrograman, *coding*, *open source*. Konten berupa artikel, tutorial, e-book, workshop atau kelas online. Hampir semuanya bisa diakses secara gratis, dan beberapa konten premium dengan harga terjangkau.
 
 ## Menjadi Kontributor
 
-Jika kamu tertarik untuk berbagi ilmu komputer, membuat artikel, video dan tutorial, atau menemukan kesalahan di website ini berupa typo atau informasi yang salah (misleading), silahkan hubungi kami melalui form dibawah untuk bergabung. Semua source code dari website ini dapat diakses melalui repo di https://github.com/inacode-id/website). Silahkan fork repo kami dan lakukan pull request, jangan lupa ikuti aturan `Code of Conduct` kami di https://github.com/inacode-id/website/blob/master/CODE_OF_CONDUCT.md
+Jika kamu tertarik untuk berbagi ilmu komputer, membuat artikel, video dan tutorial, workshop dan kelas online, atau menemukan kesalahan di website ini berupa typo atau informasi yang salah (misleading), silahkan hubungi kami melalui form dibawah untuk bergabung. Semua source code dari website ini dapat diakses melalui [repository InaCode di github](https://github.com/inacode-id/website).
+
+Jangan lupa ikuti [aturan kontributor kami di sini](https://github.com/inacode-id/website/blob/master/CODE_OF_CONDUCT.md).
 
 ## Menjadi Donatur
 
