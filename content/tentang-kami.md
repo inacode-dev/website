@@ -21,6 +21,6 @@ Kamu bisa mensupport inacode mulai dari sepuluh ribu rupiah. Support kami agar t
 
 Jika anda adalah perusahaan yang ingin mensponsori konten website ini, pemasangan iklan atau bentuk kerjasama lainnya silahkan hubungi kami melalui form dibawah ini
 
-# Hubungi Kami
+## Hubungi Kami
 
 {{< form-contact action="https://formspree.io/xnqgvoej"  >}}
