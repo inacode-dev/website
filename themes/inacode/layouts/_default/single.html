@@ -4,9 +4,12 @@
   <section class="section">
     <article class="container">
       <time class="" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        <span class="icon ">
+  <i class="fas fa-calendar-check"></i>
+</span>
         {{- .Date.Format "January 2, 2006" -}}
       </time>
-      <h1 class="title is-2 has-text-danger-dark">{{- .Title -}}</h1>
+      <h1 class="title is-2 has-text-danger">{{- .Title -}}</h1>
 
     <div class="columns">
       <div class="column content is-two-thirds">

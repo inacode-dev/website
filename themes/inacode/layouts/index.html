@@ -3,10 +3,13 @@
   <div class="hero-body">
     <div class="container">
       <h1 class="title has-text-centered">{{- .Title -}}</h1>
+      <h2 class="title is-4 has-text-centered"><a class="has-text-white" style="text-decoration: underline;" href="/kelas-online-blockchain-ethereum/">Diskon 70% early bird Kelas Online Blockchain & Ethereum Development</a></h2>
         {{- .Content -}}
     </div>
   </div>
 </section>
+
+
 
 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "artikel") }}
 <section class="section">
@@ -16,10 +19,8 @@
           {{ partial "summary-with-image.html" . }}
         {{ end }}
   </div>
- 
     {{ partial "pagination.html" . }}
   </div>
 </section>
-      
 
 {{ end }}
