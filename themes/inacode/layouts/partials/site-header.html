@@ -1,0 +1,36 @@
+{{ $featured_image := .Param "featured_image"}}
+
+<nav class="navbar is-fixed-top is-black" role="navigation" aria-label="main navigation">
+  <div class="container">
+
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{ .Site.BaseURL }}">
+        {{ with .Site.Params.site_logo }}
+          <img src="{{ . }}" class="" alt="{{ $.Site.Title }}" />
+        {{ else }}
+          {{ .Site.Title }}
+        {{ end }}
+      </a>
+      {{ if .Site.Menus.main }}
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+      {{ end }}
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+      {{ if .Site.Menus.main }}
+          {{ range .Site.Menus.main }}
+            <a class="navbar-item" href="{{ .URL }}" title="{{ .Name }} page">
+              {{ .Name }}
+            </a>
+          {{ end }}
+      {{ end }}
+      </div>
+    </div>
+    
+  </div>
+</nav>

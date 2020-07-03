@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="hero is-danger is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1">Artikel dengan tag "{{ .Title }}"</h1>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+      {{ range .Paginator.Pages }}
+        
+          {{- partial "summary.html" . -}}
+       
+      {{ end }}
+      {{ partial "pagination.html" . }}
+   </div>
+</section>
+{{ end }}

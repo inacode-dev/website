@@ -1,5 +1,5 @@
 ---
-title: "Pengantar GunDB, Database Tanpa Server Terpusat"
+title: "Pengantar GunDB, Database Tanpa Server"
 date: 2020-06-21
 toc: true
 tags:
@@ -8,14 +8,12 @@ tags:
 draft: false
 authors:
 - Admin Inacode
+featured_image: https://camo.githubusercontent.com/36a3253e47dad84b51c325ef5c2b532916a016e1/68747470733a2f2f636c6475702e636f6d2f5445793979476834356c2e737667
 ---
 
-> Bayangkan sebuah database yang bisa berjalan tanpa ada server terpusat, bisa tetap berfungsi normal ketika offline dan otomatis melakukan proses sinkronisasi tanpa developer pusing memikirkan *conflict resolution*, *zero maintenance*, nggak perlu devops, *sharding*, *master/slave*. Ada ? mari berkenalan dengan GunDB
+Bayangkan sebuah database yang bisa berjalan tanpa ada server terpusat, bisa tetap berfungsi normal ketika offline dan otomatis melakukan proses sinkronisasi tanpa developer pusing memikirkan *conflict resolution*, *zero maintenance*, nggak perlu devops, *sharding*, *master/slave*. Ada ? mari berkenalan dengan GunDB
 
 <!--more--> 
-
-{{< figure src="https://camo.githubusercontent.com/36a3253e47dad84b51c325ef5c2b532916a016e1/68747470733a2f2f636c6475702e636f6d2f5445793979476834356c2e737667" alt="gundb" >}}
-
 
 ## Tipe Topologi Jaringan Database
 

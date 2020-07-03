@@ -1,0 +1,23 @@
+
+<div class="notification is-info is-light">
+<form class="black-80 sans-serif" accept-charset="UTF-8" action="{{ .Get "action" }}" method="POST" role="form">
+    <div class="field">
+        <label class="label"  for="name">{{ i18n "yourName" }}</label>
+        <input type="text" id="name" name="name" class="input"  required placeholder=" "  aria-labelledby="name"/>
+    </div>
+
+    <div class="field">
+        <label class="label" for="email">{{ i18n "emailAddress" }}</label>
+        <input type="email" id="email" name="email" class="input"  required placeholder=" "  aria-labelledby="email"/>
+        <p class="help is-danger">{{ i18n "emailRequiredNote" }}</p>
+    </div>
+
+    <div class="field">
+    <label class="label" for="message">{{ i18n "message" }}</label>
+    <textarea id="message" name="message" class="textarea" aria-labelledby="message"></textarea>
+    </div>
+
+    <input class="button is-dark" type="submit" value="{{ i18n "send" }}" />
+
+</form>
+</div>

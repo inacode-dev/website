@@ -1,0 +1,79 @@
+{{ define "main" }}
+  {{ $section := .Site.GetPage "section" .Section }}
+  
+  <section class="section">
+    <article class="container">
+      <time class="" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{- .Date.Format "January 2, 2006" -}}
+      </time>
+      <h1 class="title is-2 has-text-danger-dark">{{- .Title -}}</h1>
+
+    <div class="columns">
+      <div class="column content is-two-thirds">
+        {{ if .Params.featured_image }}
+        <figure class="image">
+          <img src="{{ .Params.featured_image }}" alt="image from {{ .Title }}">
+        </figure>
+        {{ end }}
+
+        {{- .Content -}}
+
+        <div class="tags are-medium">
+        {{ range .Params.tags }}
+         <span class="tag ">
+           <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="">{{- . -}}</a>
+         </span>
+        {{ end }}
+        </div>
+
+      </div>
+
+      <div class="column content">
+        
+
+        {{- if .Params.toc -}}
+        <article class="message is-light">
+          <div class="message-header">
+          <p>Daftar Isi</p>
+          </div>
+          <div class="message-body">
+
+            {{ if (or (eq (.Param "show_reading_time") true) (eq $section.Params.show_reading_time true) )}}
+            <span class="tag is-dark">{{ .ReadingTime}} menit</span>
+            <span class="tag  is-dark">{{ .WordCount}} kata</span>
+            {{ end }}
+
+            {{ .TableOfContents }}
+          </div>
+        </article>
+        {{ end }}
+
+        <figure>
+        <a href="/kelas-online-blockchain-ethereum/"><img class="image" src="/img/inacode-instagram-kelas-blockchaiin-small.jpg"></a>
+        </figure>
+
+        {{ $related := .Site.RegularPages.Related . | first 15 }}
+        {{ with $related }}
+        <aside class="menu">
+            <p class="menu-label">{{ i18n "related" }}</p>
+            <ul class="menu-list">
+             {{ range . }}
+               <li>
+                  <a href="{{ .RelPermalink }}">
+                    {{- .Title -}}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+        </aside>
+        {{ end }}
+
+        
+
+      </div>
+
+    </div>
+
+  </article>
+  </section>
+{{ end }}

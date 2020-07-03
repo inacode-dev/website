@@ -7,13 +7,12 @@ tags:
 draft: false
 authors:
 - Admin Inacode
+featured_image: /img/bg.jpg
 ---
 
-> Kamu ingin berkarir sebagai software engineer ? system administrator ? atau cyber security expert ? apapun itu, kamu harus punya dasar atau fundamental yang kuat di salah satu displin ilmu yang namanya ilmu komputer, atau istilah kerennya *computer science*. Sayangnya tidak semua dari kita bisa kuliah di jurusan IT, tapi nggak usah mundur dulu. Kamu juga bisa belajar secara mandiri *self taught learner*! 
+Kamu ingin berkarir sebagai software engineer ? system administrator ? atau cyber security expert ? apapun itu, kamu harus punya dasar atau fundamental yang kuat di salah satu displin ilmu yang namanya ilmu komputer, atau istilah kerennya *computer science*. Sayangnya tidak semua dari kita bisa kuliah di jurusan IT, tapi nggak usah mundur dulu. Kamu juga bisa belajar secara mandiri *self taught learner*! 
 
 <!--more--> 
-
-{{< figure src="/img/bg.jpg" alt="cat computer" >}}
 
 
 ## Mengapa harus belajar ilmu komputer ?

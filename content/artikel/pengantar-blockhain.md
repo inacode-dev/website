@@ -8,14 +8,12 @@ tags:
 draft: false
 authors:
 - Admin Inacode
+featured_image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Blockchain_Illustration_4.jpg/640px-Blockchain_Illustration_4.jpg
 ---
 
 Istilah blockchain saat ini sudah banyak terdengar dan banyak artikel yang membahas teknologi blockchain, tapi sayangnya masih banyak miskonsepsi mengenai teknologi blockchain. Di artikel ini, saya berusaha untuk menjelaskan dengan bahasa yang sederhana yang mudah-mudahan bisa dipahami oleh semua orang. Jika kamu sudah memahami konsep blockchain mungkin artikel ini bisa menjadi tambahan informasi yang sudah kamu pahami sebelumnya.
 
 <!--more--> 
-
-{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Blockchain_Illustration_4.jpg/640px-Blockchain_Illustration_4.jpg" alt="Ilustrasi blockchain" >}}
-
 
 ## Bitcoin != Blockchain
 

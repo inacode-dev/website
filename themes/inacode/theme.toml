@@ -1,21 +1,15 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Inacode"
+name = "InaCode"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+description = "theme for inacode website"
+homepage = "https://inacode.id/"
 tags = []
 features = []
-min_version = "0.41.0"
+min_version = "0.1.0"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Adi Setiawan"
+  homepage = "https://adisetiawan.github.io"

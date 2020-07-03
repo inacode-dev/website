@@ -1,0 +1,23 @@
+
+<section class="section has-text-centered">
+  
+  <div class="container content has-text-centered">
+    <hr />
+    <p>Ikuti akun sosial media kami</p>
+  {{ partial "social-follow.html" . }}</div>
+</section>
+<footer class="footer has-background-dark has-text-white  " role="contentinfo"> 
+  <div class="content has-text-centered is-size-7">
+  <p class="is-size-6 has-text-weight-bold  "><a href="https://trakteer.id/inacode" class="has-text-link-light " target="_blank">Support kami mulai dari lima ribu rupiah untuk terus berkarya membuat konten yang bermanfaat</a></p>
+
+  <p class="f6 white-90">
+  Our mission is to help Indonesian to learn computer science, start coding and programming in easy and fun way through free tutorial videos, interactive learn, and articles. All resources in Bahasa Indonesia. We accept any donation </p>
+
+    <a class="has-text-link-light " href="https://www.buymeacoffee.com/adisetiawan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+
+  <p><a class="has-text-link-light" href="{{ .Site.BaseURL }}" >
+    &copy; {{ with .Site.Copyright | default .Site.Title }} {{ . | safeHTML }} {{ now.Format "2006"}} {{ end }}
+  </a></p>
+  </div>
+  
+</footer>
