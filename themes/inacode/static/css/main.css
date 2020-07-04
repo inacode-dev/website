@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
 
 .title, .hero-body p, time, .content h2,  .content h3 {
+font-display: swap;
 font-family: 'Playfair Display', serif;
 }

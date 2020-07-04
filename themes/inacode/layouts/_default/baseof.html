@@ -13,9 +13,10 @@
     {{ else }}
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
-    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" rel="stylesheet">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" as="style" onload="this.rel='stylesheet'">
+
     {{ range .Site.Params.custom_css }}
-      <link rel="stylesheet" href="{{ relURL (.) }}">
+      <link rel="preload" href="{{ relURL (.) }}" as="style" onload="this.rel='stylesheet'">
     {{ end }}
 
     {{ block "favicon" . }}
