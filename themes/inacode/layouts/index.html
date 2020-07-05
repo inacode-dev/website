@@ -3,7 +3,6 @@
   <div class="hero-body">
     <div class="container">
       <h1 class="title has-text-centered">{{- .Title -}}</h1>
-      <h2 class="title is-4 has-text-centered"><a class="has-text-white" style="text-decoration: underline;" href="/kelas-online-blockchain-ethereum/">Diskon 70% early bird Kelas Online Blockchain & Ethereum Development</a></h2>
         {{- .Content -}}
     </div>
   </div>
@@ -11,15 +10,33 @@
 
 
 
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" "artikel") }}
 <section class="section">
   <div class="container">
   <div class="columns is-multiline">
-        {{ range $paginator.Pages }}
+        {{ range first 10 (where .Site.RegularPages "Type" "in" "artikel") }}
           {{ partial "summary-with-image.html" . }}
         {{ end }}
   </div>
-    {{ partial "pagination.html" . }}
+  <h3 class="title has-text-centered is-4"><a href="/artikel" style="text-decoration: underline;">Lihat semua artikel &#8594;</a></h3>
+  </div>
+</section>
+
+<section class="hero is-dark is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-centered is-4"><a class="has-text-white" style="text-decoration: underline;" href="/kelas-online-blockchain-ethereum/">Diskon 70% early bird Kelas Online Blockchain & Ethereum Development</a></h1>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+  <div class="columns is-multiline">
+        {{ range first 2 (where .Site.RegularPages "Type" "in" "podcast") }}
+          {{ partial "summary-with-image.html" . }}
+        {{ end }}
+  </div>
+     <h3 class="title has-text-centered is-4"><a href="/podcast" style="text-decoration: underline;">Lihat semua podcast &#8594;</a></h3>
   </div>
 </section>
 

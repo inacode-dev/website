@@ -8,7 +8,7 @@ other = "Semua {{.Title }}"
 other = "{{.Title }} Terbaru"
 
 [readMore]
-other = "Baca lebih lanjut.."
+other = "Baca lebih lanjut"
 
 [whatsInThis]
 other = "Informasi {{ .Type }}"
