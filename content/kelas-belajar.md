@@ -1,7 +1,6 @@
 ---
-title: Kelas & Workshop
+title: Kelas Online, Workshop & Webinar
 type: page
-menu: main
 weight: 4
 
 ---

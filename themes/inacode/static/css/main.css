@@ -1,4 +1,10 @@
-.title, .hero-body p, time, .content h2,  .content h3 {
+.title, .hero-body p, time, .content h2,  .content h3, .content-metadata {
 font-display: swap;
 font-family: 'Playfair Display', serif;
+}
+.title a:hover {
+	text-decoration: underline;
+}
+.link:hover {
+	text-decoration: underline;
 }

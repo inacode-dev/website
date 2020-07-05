@@ -2,12 +2,12 @@
 <div class="column is-half content is-medium">
 
   <h1 class="title is-4"><a href="{{.Permalink}}" class="has-text-danger-dark">{{ .Title }}</a></h1>
-  <span>&#128467;&nbsp;&nbsp; <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  <span class="is-size-6">&#128467;&nbsp;&nbsp; <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
          {{- .Date.Format "2 January, 2006" -}}
   </time></span>
   
   {{ .Summary }}
 
- <p><a href="{{.Permalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | default (i18n "readMore") }} &#8594;</a></p>
+ <p><a href="{{.Permalink}}" class="link">{{ $.Param "read_more_copy" | default (i18n "readMore") }} &#8594;</a></p>
 
 </div>

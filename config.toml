@@ -46,17 +46,23 @@ disableKinds = ["taxonomyTerm"]
     url = "/artikel/"
     weight = 1
   [[menu.main]]
+    identifier = "podcast"
+    name = "Podcast"
+    title = "podcast"
+    url = "/podcast/"
+    weight = 2
+  [[menu.main]]
     identifier = "video"
     name = "Video"
     title = "video"
     url = "/video/"
     weight = 3
   [[menu.main]]
-    identifier = "podcast"
-    name = "Podcast"
-    title = "podcast"
-    url = "/podcast/"
-    weight = 2
+    identifier = "kelas-belajar"
+    name = "Kelas Online"
+    title = "kelas-belajar"
+    url = "/kelas-belajar/"
+    weight = 4
 
 
 [taxonomies]
