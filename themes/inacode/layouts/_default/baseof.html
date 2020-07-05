@@ -42,7 +42,7 @@
 	{{ block "head" . }}{{ partial "head-additions.html" }}{{ end }}
   </head>
 
-  <body class="has-navbar-fixed-top">
+  <body class="has-navbar-fixed-top" style="visibility: hidden;" onload="(function(){document.body.style.visibility='visible';}).call(this)">
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
