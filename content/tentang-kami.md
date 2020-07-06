@@ -1,7 +1,7 @@
 ---
 title: "Tentang Kami"
 type: page
-menu: main
+menu: footer
 weight: 100
 ---
 

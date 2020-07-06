@@ -2,6 +2,8 @@
 title: Kelas Online Blockchain & Ethereum Development
 type: page
 date: 2020-06-30
+images: 
+- /img/banner-kelas-ethereum.jpg
 ---
 
 {{< figure src="/img/banner-kelas-ethereum.jpg" alt="banner kelas online blockchain dan etereum development" >}}

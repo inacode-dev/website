@@ -38,7 +38,6 @@ disableKinds = ["taxonomyTerm"]
   show_reading_time = true
 
 [menu]
-
   [[menu.main]]
     identifier = "artikel"
     name = "Artikel"
@@ -63,7 +62,6 @@ disableKinds = ["taxonomyTerm"]
     title = "kelas-belajar"
     url = "/kelas-belajar/"
     weight = 4
-
 
 [taxonomies]
   tag = "tags"

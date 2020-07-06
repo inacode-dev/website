@@ -2,7 +2,7 @@
 title: Daftar Istilah
 type: page
 date: 2020-06-14
-
+menu: footer
 ---
 
 > Berikut adalah padanan istilah komputer dari bahasa Inggris ke bahasa Indonesia
