@@ -3,11 +3,9 @@
   <div class="container">
   <div class="columns">
 
-    <div class="column is-half">
-      
+    <div class="column">
       {{ if .Site.Menus.footer }}
       <aside class="menu">
-        <p class="menu-label">Tautan</p>
         <ul class="menu-list">
          {{ range .Site.Menus.footer }}
           <li><a href="{{ .URL }}" title="{{ .Name }} page">{{ .Name }}</a></li>
@@ -15,8 +13,16 @@
         </ul>
       </aside>
        {{ end }}
-      
-    </a>
+    </div>
+
+    <div class="column">
+       <div class="tags are-medium">
+          {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+            <a class="tag is-danger" href="{{ .Permalink }}">{{ $name }}</a>
+            {{ end }}
+          {{ end }}
+      </div>
     </div>
 
     <div class="column is-half content">
