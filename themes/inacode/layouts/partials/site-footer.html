@@ -3,7 +3,16 @@
   <div class="container">
   <div class="columns">
 
-    <div class="column">
+    <div class="column is-half">
+      
+      <div class="tags are-medium content">
+          {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+            <a class="tag is-white" href="{{ .Permalink }}">{{ $name }}</a>
+            {{ end }}
+          {{ end }}
+      </div>
+      <p class="content">{{ partial "social-follow.html" . }}</p>
       {{ if .Site.Menus.footer }}
       <aside class="menu">
         <ul class="menu-list">
@@ -13,25 +22,17 @@
         </ul>
       </aside>
        {{ end }}
+       
     </div>
 
-    <div class="column">
-       <div class="tags are-medium">
-          {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-            {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-            <a class="tag is-danger" href="{{ .Permalink }}">{{ $name }}</a>
-            {{ end }}
-          {{ end }}
-      </div>
-    </div>
 
     <div class="column is-half content">
 
-      <p><a href="https://trakteer.id/inacode" class="has-text-black is-size-5" target="_blank">Suka dengan website ini ?<br />traktir kami kopi &#9749; ya biar semangat &#128591; &#128525;</a></p>
+      <p><a href="https://trakteer.id/inacode" class="has-text-black is-size-5" target="_blank">Suka dengan website ini ?<br />traktir kami &#9749; ya biar semangat &#128591; &#128525;</a></p>
 
-      <p>{{ partial "social-follow.html" . }}</p>
+      
 
-      <p class="is-size-7">  Our mission is to help Indonesian to learn computer science, start coding and programming in easy and fun way through tutorial videos, online courses, and articles. All resources in Bahasa Indonesia. We accept any donation, use below link for international donation</p>
+      <p class="is-size-7">InaCode is similar like <a href="https://freecodecamp.org">freecodecamp</a> but for Indonesian because language has still become a major barrier to learn programming, coding or computer science. We're creating tutorial videos, online courses, and articles. We're currently open to any donation, please use below link for international donation</p>
 
     <a class="has-text-link-light " href="https://www.buymeacoffee.com/adisetiawan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 35px !important;width: 150px !important;" ></a>
     </div>
