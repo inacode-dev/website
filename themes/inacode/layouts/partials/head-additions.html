@@ -1,0 +1,115 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/ui/4.5.1/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.5.1/firebase-ui-auth.css" />
+
+<script type="text/javascript">
+
+   // Initialize Firebase
+   var firebaseConfig = {
+    apiKey: "AIzaSyCOmSdGgzdr3uO77yVezVafcGOlK6PfgKQ",
+    authDomain: "inacode-indonesia.firebaseapp.com",
+    databaseURL: "https://inacode-indonesia.firebaseio.com",
+    projectId: "inacode-indonesia",
+    storageBucket: "inacode-indonesia.appspot.com",
+    messagingSenderId: "668078440587",
+    appId: "1:668078440587:web:1e139e4c562a08bd0e148e",
+    measurementId: "G-TWFY1KNPEF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  function getUiConfig() {
+  	return {
+	  signInOptions: [
+	    // List of OAuth providers supported.
+	    firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+	    firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+	    firebase.auth.GithubAuthProvider.PROVIDER_ID,
+	    firebase.auth.PhoneAuthProvider.PROVIDER_ID,
+	  ],
+	  callbacks: {
+	    signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+	      handleSignedInUser(authResult.user);
+	      // Do not redirect.
+          return false;
+	    },
+	    uiShown: function() {
+	      // The widget is rendered.
+	      // Hide the loader.
+	      document.getElementById('loading').style.display = 'none';
+	    }
+	  },
+	  signInFlow: 'popup',
+	  signInSuccessUrl: '{{ .Site.BaseURL }}',
+	};
+  }
+
+  // Initialize Firebase
+  firebase.analytics();
+
+  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+
+  var handleSignedInUser = function(user) {
+  		console.log(user);
+  		document.getElementById('loading').style.display = 'none';
+  		document.getElementById('member-area').style.display = 'block';
+	  // document.getElementById('user-signed-in').style.display = 'block';
+	  // document.getElementById('user-signed-out').style.display = 'none';
+	  // document.getElementById('name').textContent = user.displayName;
+	  // document.getElementById('email').textContent = user.email;
+	  // document.getElementById('phone').textContent = user.phoneNumber;
+	  // if (user.photoURL) {
+	  //   var photoURL = user.photoURL;
+	  //   // Append size to the photo URL for Google hosted images to avoid requesting
+	  //   // the image with its original resolution (using more bandwidth than needed)
+	  //   // when it is going to be presented in smaller size.
+	  //   if ((photoURL.indexOf('googleusercontent.com') != -1) ||
+	  //       (photoURL.indexOf('ggpht.com') != -1)) {
+	  //     photoURL = photoURL + '?sz=' +
+	  //         document.getElementById('photo').clientHeight;
+	  //   }
+	  //   document.getElementById('photo').src = photoURL;
+	  //   document.getElementById('photo').style.display = 'block';
+	  // } else {
+	  //   document.getElementById('photo').style.display = 'none';
+	  // }
+	};
+
+
+	/**
+	 * Displays the UI for a signed out user.
+	 */
+	var handleSignedOutUser = function() {
+	  document.getElementById('member-area').style.display = 'none';
+	  ui.start('#firebaseui-container', getUiConfig());
+	};
+
+  	// Listen to change in auth state so it displays the correct UI for when
+	// the user is signed in or not.
+	firebase.auth().onAuthStateChanged(function(user) {
+	  user ? handleSignedInUser(user) : handleSignedOutUser();
+	});
+
+
+  	var initApp = function() {
+	  document.getElementById('loading').style.display = 'block';
+
+	  var user = firebase.auth().currentUser;
+	  if (user != null) {
+	  	document.getElementById('member-area').style.display = 'block';
+	  	document.getElementById('loading').style.display = 'none';
+	  }
+	  document.getElementById('logout-link').addEventListener('click', function() {
+	    firebase.auth().signOut();
+	  });
+
+	};
+
+	window.addEventListener('load', initApp);
+</script>
