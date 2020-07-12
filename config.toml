@@ -63,6 +63,14 @@ disableKinds = ["taxonomyTerm"]
     url = "/kelas-belajar/"
     weight = 4
 
+  [[menu.footer]]
+    identifier = "milis"
+    name = "Daftar Newsletter"
+    title = "daftar-newsletter"
+    url = "https://mailchi.mp/57aa88af0d0f/inacode-indonesia"
+    weight = 10
+
+
 [taxonomies]
   tag = "tags"
   author = "authors"
