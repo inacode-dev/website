@@ -99,7 +99,7 @@ Adi Setiawan, seorang fullstack developer dengan pengalaman lebih dari 20 tahun 
 ## Biaya Kelas
 
 * ~~Early Bird 1 Juli s/d 15 Juli 2020 IDR 299.000~~
-* **Harga Promo 16 Juli s/d 31 Juli 2020 IDR 699.000**
+* **Harga Promo 16 Juli s/d 31 Juli 2020 IDR 599.000**
 * ~~Harga Normal setelah Juli 2020 IDR 999.000~~
 
 {{< /notification >}}
