@@ -7,7 +7,7 @@
 https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/ui/4.5.1/firebase-ui-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/ui/4.5.1/firebase-ui-auth__id.js"></script>
 <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.5.1/firebase-ui-auth.css" />
 
 <script type="text/javascript">
@@ -48,8 +48,9 @@ https://firebase.google.com/docs/web/setup#available-libraries -->
 	      document.getElementById('loading').style.display = 'none';
 	    }
 	  },
-	  signInFlow: 'popup',
+	  signInFlow: 'redirect',
 	  signInSuccessUrl: '{{ .Site.BaseURL }}',
+	  defaultCountry: 'ID',
 	};
   }
 
