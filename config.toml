@@ -1,4 +1,4 @@
-baseURL = "https://inacode.id/"
+baseURL = "https://inacode.dev/"
 languageCode = "id-id"
 title = "Inacode Indonesia"
 Copyright = "100% made with &#10084; from Bali"
@@ -51,18 +51,11 @@ disableKinds = ["taxonomyTerm"]
     url = "/podcast/"
     weight = 2
   [[menu.main]]
-    identifier = "video"
-    name = "Video"
-    title = "video"
-    url = "/video/"
-    weight = 3
-  [[menu.main]]
     identifier = "kelas-belajar"
     name = "Kelas Online"
     title = "kelas-belajar"
     url = "/kelas-belajar/"
     weight = 4
-
   [[menu.footer]]
     identifier = "milis"
     name = "Daftar Newsletter"
