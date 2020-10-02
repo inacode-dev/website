@@ -1,2 +1,3 @@
 # website
-inacode.id website generator using hugo
+
+inacode.dev website generator using hugo
